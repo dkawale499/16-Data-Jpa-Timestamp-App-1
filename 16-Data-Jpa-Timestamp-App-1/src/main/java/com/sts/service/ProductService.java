@@ -18,7 +18,7 @@ public class ProductService {
 		Product p=new Product();
 		p.setPid(212);
 		p.setName("HHD");
-		p.setPrice(5016.20);
+		p.setPrice(4016.20);
 		
 		ProductRepo.save(p);
 		System.err.println("Produce is saved");
