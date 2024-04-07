@@ -17,7 +17,7 @@ public class ProductService {
 		
 		Product p=new Product();
 		p.setPid(212);
-		p.setName("SSD");
+		p.setName("HHD");
 		p.setPrice(5016.20);
 		
 		ProductRepo.save(p);
